@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <main>
+
+<form action="" method="post" id="ingresos">
+<div class="form">
+  <h1>Contáctanos</h1>
+
+  <label for="name">Nombres</label>
+      <div class="grupos">
+    <input type="text" id="name" placeholder="Ingrese el nombre">      
+</div>
+
+<label for="surname">Apellidos:</label>
+          <div class="grupos">  
+            <input type="text" name="" id="surname"
+            placeholder="Ingrese sus apellidos"/>    
+          </div>
+
+          <label for="">Fecha de Nacimiento:</label>
+          <div class="grupos">
+        <input type="date" name="" id="fecha_de_nacimiento" />        
+          </div>
+
+          <label for="">Edad:</label>
+          <div class="grupos">
+        <input type="number" name="" id="edad"placeholder="Escribir Edad" />        
+          </div>    
+
+          <label for="">Teléfono/Celular:</label>
+          <div class="grupos">
+              <input type="text" name="" id="mobile"
+              placeholder="Ingresar tu Número"/>           
+          </div>    
+          <label for="">Correo electrónico:</label>
+          <div class="grupos">
+              <input type="email" name="" id="email"
+              placeholder="Ingresar Correo"/>           
+          </div>    
+
+          <div class="terminos">
+            <input type="checkbox"  class="visto" id="terminos">
+            <label for="terminos" class="ter">He leído y acepto los </label>
+            <a class= "condiciones" href="#">Términos y Condiciones</a>
+            <p class="mensajeError"></p>
+    
+        
+      </div>
+      <button type="submit" onclick="Enviar()">Enviar Datos</button>
+      <p class="mensajeCorrecto"></p>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</main>
+</body>
+</html> 

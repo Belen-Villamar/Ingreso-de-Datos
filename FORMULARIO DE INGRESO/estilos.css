@@ -1,0 +1,138 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+    background: -webkit-linear-gradient(to right, #d631f7, #2477f3);
+    background: linear-gradient(to right, #d631f7, #2477f3);
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+	max-width: 800px;
+	width: 900%;
+	margin: auto;
+	padding: 40px;
+}
+
+.ingresos{
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 10px;
+    
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    text-align:center;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    
+}
+
+form{
+    
+    background: -webkit-linear-gradient(to right, #13e49e, #3cf8c08c);
+    background: linear-gradient(to right,#13e49e, #3cf8c08c );
+    padding: 44px ;
+    border-radius: 50px;
+}
+
+.form{
+    width: 100%;
+    margin: auto;
+}
+
+form .grupos{
+    position:relative;
+    margin: 20px;
+    border: rgb(255, 255, 255);
+}
+
+input{
+    
+    font-family: 'Times New Roman', Times, serif;
+    background: rgb(255, 255, 255);
+    color: #000000;
+    font-size: 15px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid var(--colorTextos);
+}
+
+input:focus{ 
+    outline: none;
+    color: #6d3ce0;
+}
+
+
+label{
+
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    position: relative;
+    left: 25px;
+    top: 10px;
+    transition: 0.5s ease all;
+    pointer-events: none;
+}
+
+.terminos{
+color: rgba(0, 0, 0, 0.863);
+position: relative;
+    left: 30px;
+    top: 5px; 
+   font-size: 17px;
+}
+
+.ter{
+  color: rgba(0, 0, 0, 0.863);
+position: relative;
+    left:5px;
+    top: 5px;
+    font-size: 17px;
+}
+
+.visto{
+  color: rgb(0, 0, 0);
+position: relative;
+    left:-325px;
+    top: 25px
+}
+
+
+
+.condiciones{
+  color: rgb(68, 0, 255);
+position: relative;
+    left:5px;
+    top: 5px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+
+button{
+    font-family: 'roboto';
+    background: #2d58e7;
+    background: -webkit-linear-gradient(to right, #170153, #2b097a);
+    background: linear-gradient(to right,#170153, #2b097a );
+    border: none;
+    display: block;
+    width: 30%;
+    margin: 30px auto;
+    color: #fff;
+    height: 50px;
+    font-size: 16px;
+    cursor: pointer;
+}
